@@ -1,0 +1,85 @@
+body{
+    background: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    
+   margin: 20px;
+   display: inline-block;
+
+}
+header ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+   
+}
+.title{
+    color: white;
+    margin-top: 90px;
+    margin-left: 80px;
+    font-family: system-ui;
+}
+.par{
+    color: white;
+    margin-top: 0px;
+    margin-left: 80px;
+    font-family: system-ui;
+}
+.logo{
+    margin-left: 70px;
+}
+.btn{
+    margin-left:80px ;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+.text{
+    color: white;
+    font-family: system-ui;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all{
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pig-1,.pig-2,.pig-3,.pig-4,.pig-5{
+    height: 80px;
+}
+.plus{
+    margin-left: 500px;
+    margin-bottom: 80px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pig-1:hover{
+    transform: scale(1.2);
+}
+.pig-2:hover{
+    transform: scale(1.2);
+}
+.pig-3:hover{
+    transform: scale(1.2);
+}
+.pig-4:hover{
+    transform: scale(1.2);
+}
+.pig-5:hover{
+    transform: scale(1.2);
+}
